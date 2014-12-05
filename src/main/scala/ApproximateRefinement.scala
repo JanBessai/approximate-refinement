@@ -1,5 +1,5 @@
 
-object ApproximatedRefinementType {
+object ApproximateRefinement {
   sealed trait Type
   sealed trait Arrow extends Type {
     val src: Type
